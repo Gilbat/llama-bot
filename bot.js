@@ -29,12 +29,9 @@ function getValueOnBoard(majX, majY, minX, minY, value) {
 var activeX = 1;
 var activeY = 1;
 */
-info = {}
-
-TIMEOUT_ROLE_ID = "354313345979121664";
-TIMEOUT_CHANNEL_ID = "354312520447688704";
-HEAVY_TIMEOUT_ROLE_ID = "354329328688955392";
-SERVER_ID = "331900978548965376"
+/*
+Config entries vacated to config.txt
+*/
 
 client.on("message", (message) => {
 	if (message.author.bot)
