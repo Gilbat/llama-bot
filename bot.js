@@ -10,6 +10,32 @@ client.on("ready", () => {
 
 
 /*
+var board = []
+
+function rstboard() {
+	for (i = 0; i < 27; i++) {
+		board[i] = 0;
+	}
+}
+
+function getValueOnBoard(majX, majY, minX, minY) {
+	return board[majX * 27 + majY * 9 + minX * 3 + minY];
+}
+
+function getValueOnBoard(majX, majY, minX, minY, value) {
+	board[majX * 27 + majY * 9 + minX * 3 + minY] = value;
+}
+
+var activeX = 1;
+var activeY = 1;
+*/
+info = {}
+
+TIMEOUT_ROLE_ID = "354313345979121664";
+TIMEOUT_CHANNEL_ID = "354312520447688704";
+HEAVY_TIMEOUT_ROLE_ID = "354329328688955392";
+SERVER_ID = "331900978548965376"
+
 client.on("message", (message) => {
 	if (message.author.bot)
 		return;
@@ -93,8 +119,6 @@ client.on("message", (message) => {
 		}
 	}
 });
-Vacated to bot.py
-*/
 
   function sleep (time) {
   return new Promise((resolve) => setTimeout(resolve, time));
