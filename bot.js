@@ -10,29 +10,6 @@ client.on("ready", () => {
 
 
 /*
-var board = []
-
-function rstboard() {
-	for (i = 0; i < 27; i++) {
-		board[i] = 0;
-	}
-}
-
-function getValueOnBoard(majX, majY, minX, minY) {
-	return board[majX * 27 + majY * 9 + minX * 3 + minY];
-}
-
-function getValueOnBoard(majX, majY, minX, minY, value) {
-	board[majX * 27 + majY * 9 + minX * 3 + minY] = value;
-}
-
-var activeX = 1;
-var activeY = 1;
-*/
-/*
-Config entries vacated to config.txt
-*/
-/*
 client.on("message", (message) => {
 	if (message.author.bot)
 		return;
