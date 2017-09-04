@@ -32,7 +32,7 @@ var activeY = 1;
 /*
 Config entries vacated to config.txt
 */
-
+/*
 client.on("message", (message) => {
 	if (message.author.bot)
 		return;
@@ -116,6 +116,8 @@ client.on("message", (message) => {
 		}
 	}
 });
+Vacated to bot.py
+*/
 
   function sleep (time) {
   return new Promise((resolve) => setTimeout(resolve, time));
